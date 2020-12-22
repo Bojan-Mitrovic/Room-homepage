@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOM HOMEPAGE MASTER</title>
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="shortcut icon" href="./resources/images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./resources/images/logo.png" alt="logo">
+        </div>
+        <!-- navigation bar -->
+        <nav class="navbar">
+            <div id="show" class="show">
+                <img src="./resources/images/icon-hamburger.svg" alt="icon-hamburger">
+            </div>
+            <ul id="active" class="active">
+                <li><img id="close" src="./resources/images/icon-close.svg" alt="icon-close"></li>
+                <li><a class="link" href="#">home</a></li>
+                <li><a class="link" href="#">shop</a></li>
+                <li><a class="link" href="#">about</a></li>
+                <li><a class="link" href="#">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- main -->
+    <div class="container">
+        <div id="main" class="main">
+            <img id="mainhero" class="imgMain" src="./resources/images/desktop-image-hero-1.jpg" alt="hero1">
+            <img id="mainhero2" class="imgMain" src="./resources/images/desktop-image-hero-2.jpg" alt="hero2">
+            <img id="mainhero3" class="imgMain" src="./resources/images/desktop-image-hero-3.jpg" alt="hero3">
+        </div>
+
+        <!-- arrows -->
+        <div class="arrows">
+            <div id="leftarrow" onclick="changeTheme(-1)" class="leftarrow">
+                <img src="./resources/images/icon-angle-left.svg" alt="leftarrow">
+            </div>
+            <div id="rightarrow" onclick="changeTheme(1)" class="rightarrow">
+                <img src="./resources/images/icon-angle-right.svg" alt="rightarrow ">
+            </div>
+        </div>
+
+        <!-- top right box -->
+        <div class="about-company">
+            <h1 id="headingText" class="title">Discover inovative ways to decorate</h1>
+            <h1 id="headingText2" class="title">We are available all across the globe</h1>
+            <h1 id="headingText3" class="title">Manufactured with the best materials</h1>
+
+            <p id="parText" class="parText">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection
+                of you and what you love.</p>
+            <p id="parText2" class="parText">With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we're in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions, don't hesitate
+                to contact us today.</p>
+            <p id="parText3" class="parText">Our modern furnitre store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect as consistent as possible. With three decades expiriance in this industry, we understand
+                what customers want for their home and office. </p>
+            <div class="shopnow">
+                <span class="shoptext">SHOP NOW</span>
+                <img src="./resources/images/icon-arrow.svg " alt="arrow ">
+            </div>
+        </div>
+        <div class="pic1 ">
+            <img src="./resources/images/image-about-dark.jpg" alt="imagedark">
+        </div>
+
+        <!-- middle box -->
+        <div class="about-furniture ">
+            <h2>ABOUT OUR FURNITURE</h2>
+            <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your intrests and what inspires you. Find the furniture peaces you need, from traditional
+                to contemporary styles or anything between. Product specialist are avalaible to help you create your dream space.</p>
+        </div>
+        <div class="pic2 ">
+            <img src="./resources/images/image-about-light.jpg" alt="imagelight">
+        </div>
+    </div>
+
+
+    <script src="resources/script.js"></script>
+</body>
+
+</html>
