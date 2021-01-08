@@ -222,9 +222,7 @@ h2 {
         display: flex;
         height: 350px;
     }
-    .imgMain {
-        display: none;
-    }
+ 
     .mobImg {
         display: block;
     }
